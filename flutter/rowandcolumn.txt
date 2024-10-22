@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Rows and Columns Example'),
+        ),
+        body: Column(
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text('Row 1, Col 1'),
+                Text('Row 1, Col 2'),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text('Row 2, Col 1'),
+                Text('Row 2, Col 2'),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}

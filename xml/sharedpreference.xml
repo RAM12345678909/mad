@@ -1,0 +1,17 @@
+<EditText
+    android:id="@+id/inputText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Enter Text"/>
+
+<Button
+    android:id="@+id/saveButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Save"/>
+
+<Button
+    android:id="@+id/loadButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Load"/>
